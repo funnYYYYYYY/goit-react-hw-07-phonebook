@@ -8,7 +8,6 @@ const filterSlice = createSlice({
   reducers: {
     filterContact(state, action) {
       return (state = action.payload.toLowerCase());
-      // state.status = action.payload.toLowerCase();
     },
   },
 });
